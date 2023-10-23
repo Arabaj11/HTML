@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>website</title>
+    <style>
+        * {
+            margin: 0;
+
+        }
+
+        header {
+            background-color: rgb(147, 145, 145);
+            position: sticky;
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            background-color: aliceblue;
+            position: sticky;
+            top: 0;
+            text-align: right;
+
+        }
+
+        nav ul li {
+            text-decoration: none;
+            list-style-type: none;
+            display: inline-block;
+            padding: 30px;
+
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+
+        }
+
+        article img {
+            width: 100%;
+            height: 600px;
+        }
+
+        .msd {
+            display: flex;
+            text-align: center;
+            font-family: cursive;
+        }
+
+        .img1 {
+            flex: 10;
+            margin: 5px;
+            border: solid 1px red;
+        }
+
+        .img2 {
+            margin: 5px;
+            flex: 10;
+            border: solid 1px red;
+        }
+
+        .img3 {
+            margin: 5px;
+            flex: 10;
+            border: solid 1px red;
+        }
+
+        .img4 {
+            flex: 10;
+            margin: 5px;
+            border: solid 1px red;
+        }
+
+        aside {
+            margin-top: 1%;
+            display: flex;
+        }
+
+        .arabaj div {
+            margin: 5px;
+           flex:50%;
+        }
+
+        footer {
+            background-color: darkgray;
+
+            margin-top: 30px;
+            padding: 40px;
+        }
+
+        footer h1 {
+            text-align: center;
+
+        }
+
+        @media screen and (max-width:700px) {
+            .msd,.arabaj, nav article {
+
+                flex-direction: column;
+            }
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>INDIA CRICKET TEAM</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#">Feedback</a></li>
+        </ul>
+    </nav>
+
+    <article>
+        <img src="assets/image/msd4.jpg" width="100%" alt="">
+    </article>
+    <section id="about" class="msd">
+        <div class="img1">
+            <img src="assets/image/msd1.jpg" width="100%" height="400" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad dignissimos alias quas inventore iste eius,
+                neque eum error dolores officia!</p>
+        </div>
+
+        <div class="img2">
+            <img src="assets/image/msd2.jpg" width="100%" height="400" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto hic obcaecati fugit sed
+                aperiam consequatur, quia nisi assumenda voluptas.</p>
+        </div>
+
+        <div class="img3">
+            <img src="assets/image/msd9.jpg" width="100%"  height="400" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quod tenetur accusantium eum perferendis
+                rerum, consequuntur in nihil reiciendis obcaecati!</p>
+        </div>
+
+        <div class="img4">
+            <img src="assets/image/msd7.jpg" alt="" width="100%" height="400">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit molestias voluptas tempore non. Consequuntur
+                cum modi tempora recusandae repellendus quos!</p>
+        </div>
+    </section>
+    <aside id="contact" class="arabaj">
+
+        <div>
+
+            <iframe width="100%" height="450" src="https://www.youtube.com/embed/IXKu3w5-glc"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+        </div>
+
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3773.8314606475506!2d72.82318907492251!3d18.938852782237724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7d1e0f0a26a81%3A0x87d6e47e04df3916!2sWankhede%20Stadium!5e0!3m2!1sen!2sin!4v1690902518173!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </aside>
+    <footer>
+        <h1>CONTACT</h1>
+        <ul id="footerinfo">
+            <li>mo-no : 8766989359</li>
+            <li>mail : arabajmulla1@gmail.com</li>
+            <li>instagram</li>
+            <li>facebook</li>
+        </ul>
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+    <style>
+        header{
+
+            text-align: center;
+            background-color: aquamarine;
+            padding: 5px;
+
+        }
+        section{
+            display: flex;
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+        aside{
+            width: 30%;
+            height: 700px;
+            background-color: greenyellow;
+            text-align: center;
+        }
+        aside h1{
+            text-align: center;
+            padding-top: 350px;
+        }
+        article{
+            background-color: burlywood;
+            height: 700px;
+            width: 70%;
+            margin-left: 25px;
+        }
+        #boxes{
+            display: flex;
+
+        }
+        #boxes div{
+           flex: 10;
+            width: 200px;
+            height: 200px;
+            margin-left: 20px;
+            margin-top: 360px;
+        }
+        footer{
+            text-align: center;
+            background-color: aquamarine;
+            padding: 10px;
+            
+        }
+    @media screen and (max-width:700px) {
+             #boxes {
+
+                flex-direction: column;
+            }}
+    </style>
+</head>
+
+<body>
+
+    <header><h1>THIS IS MY HEADER</h1></header>
+
+    <section>
+
+            <aside>
+                <h1>Aside</h1>
+
+            </aside>
+
+            <article>
+                <section id="boxes">
+                <div>
+                        <img src="assets/image/msd2.jpg" alt="" height="300" width="300">
+                </div>
+
+                <div>
+                       <img src="assets/image/msd7.jpg" alt="" height="300" width="300">
+                </div>
+
+                <div>
+                        <img src="assets/image/msd4.jpg" alt="" height="300" width="300">
+                </div>
+            </section>
+
+            </article>
+
+        
+    </section>
+
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+    
+</body>
+</html>
